@@ -12,7 +12,7 @@ Treinei **três modelos** com a mesma arquitetura, variando apenas o tratamento 
 - O modelo **não conseguiu aprender os padrões corretamente**, prevendo sempre a **classe 1**.
 - Resultado semelhante a uma escolha aleatória, com:
   - **AUC**: `0.502`
-
+![Comparação de Modelos](curva_roc_bruto.png)
 ---
 
 ## 🟡 Modelo 2: Dados Normalizados (MinMaxScaler)
